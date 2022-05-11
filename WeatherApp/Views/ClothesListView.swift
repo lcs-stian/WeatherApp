@@ -12,9 +12,9 @@ struct ClothesListView: View {
         
         List {
 
-            Image("Tshirt")
-            Image("Pant")
-            Image("Sock")
+            Image("hat")
+            Image("winter-coat")
+            Image("pant")
             
             }
 

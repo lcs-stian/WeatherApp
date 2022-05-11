@@ -11,27 +11,10 @@ import SwiftUI
 struct WeatherAppApp: App {
     var body: some Scene {
         WindowGroup {
-            TabView {
+    
                 
                 TemperatureView()
-                    .tabItem {
-                        Image(systemName: "thermometer")
-                        Text("Temperature")
-                    }
                 
-                ClothesListView()
-                    .tabItem {
-                        Image(systemName: "list.dash")
-                        Text("List")
-                    }
-                
-                ClothesDetailView()
-                    .tabItem {
-                        Image(systemName: "tshirt")
-                        Text("Detail")
-                    }
-                
-            }
         }
     }
 }
