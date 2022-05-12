@@ -27,7 +27,7 @@ struct TemperatureView: View {
     
     @State private var isToggleSnow : Bool = false
     
-    @State private var selectedActivity = 0
+    @State private var selectedActivity = ""
     
     var body: some View {
         // MARK: Computed properties
@@ -96,10 +96,10 @@ struct TemperatureView: View {
                            label: Text("Picker"),
                            content: {
                         
-                        Text("Daily").tag(0)
-                        Text("OE").tag(1)
-                        Text("Swim").tag(2)
-                        Text("Canoe").tag(3)
+                        Text("Daily").tag("daily")
+                        Text("OE").tag("oe")
+                        Text("Swim").tag("swim")
+                        Text("Canoe").tag("canoe")
                         
                     })
                         .pickerStyle(SegmentedPickerStyle())

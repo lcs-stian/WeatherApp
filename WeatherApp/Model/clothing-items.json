@@ -7,10 +7,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": true,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 4,
-      "goodForCanoe": 4,
+      "bestForThisActivity": "oe",
       "id": 2
     },
     {
@@ -21,10 +18,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 4,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "canoe",
       "id": 3
     },
     {
@@ -35,10 +29,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 4,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 4
     },
     {
@@ -49,10 +40,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 5
     },
     {
@@ -63,10 +51,7 @@
       "goodForWind": false,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "swim",
       "id": 6
     },
     {
@@ -77,10 +62,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 7
     },
     {
@@ -91,10 +73,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": true,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "canoe",
       "id": 8
     },
     {
@@ -105,10 +84,7 @@
       "goodForWind": false,
       "goodForRain": true,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "oe",
       "id": 9
     },
     {
@@ -119,10 +95,7 @@
       "goodForWind": false,
       "goodForRain": true,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "oe",
       "id": 10
     },
     {
@@ -133,10 +106,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 11
     },
     {
@@ -147,10 +117,7 @@
       "goodForWind": true,
       "goodForRain": true,
       "goodForSnow": true,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 12
     },
     {
@@ -161,10 +128,7 @@
       "goodForWind": true,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "oe",
       "id": 13
     },
     {
@@ -175,10 +139,7 @@
       "goodForWind": false,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 14
     },
     {
@@ -189,10 +150,7 @@
       "goodForWind": false,
       "goodForRain": true,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "daily",
       "id": 15
     },
     {
@@ -203,10 +161,7 @@
       "goodForWind": false,
       "goodForRain": false,
       "goodForSnow": true,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "oe",
       "id": 16
     },
     {
@@ -217,10 +172,7 @@
       "goodForWind": false,
       "goodForRain": false,
       "goodForSnow": true,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "oe",
       "id": 17
     },
     {
@@ -231,10 +183,7 @@
       "goodForWind": false,
       "goodForRain": false,
       "goodForSnow": false,
-      "goodForDaily": 0,
-      "goodForOe": 1,
-      "goodForSwim": 2,
-      "goodForCanoe": 3,
+      "bestForThisActivity": "swim",
       "id": 18
     }
   ]
