@@ -107,7 +107,15 @@ struct TemperatureView: View {
                     
                     
                     
-                    NavigationLink(destination: ClothesListView(possibleItems: possibleItems)) {
+                    NavigationLink(destination: ClothesListView(
+                        possibleItems: possibleItems,
+                        temperature: temperature,
+                        isToggleClear: isToggleClear,
+                        isToggleWind: isToggleWind,
+                        isToggleRain: isToggleRain,
+                        isToggleSnow: isToggleSnow
+                
+                    )) {
                         Text("What should I wear?")
                             .frame(minWidth: 0, maxWidth: 300)
                             .padding()

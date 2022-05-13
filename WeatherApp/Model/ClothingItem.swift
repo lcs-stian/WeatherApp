@@ -13,14 +13,11 @@ struct ClothingItem: Identifiable, Codable {
     let image: String
     let minTemp: Double
     let maxTemp: Double
-    
     let goodForClear: Bool
     let goodForWind: Bool
     let goodForRain: Bool
     let goodForSnow: Bool
-    
     let bestForThisActivity: String
-    
     let id: Int
     
 }
