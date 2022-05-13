@@ -22,15 +22,16 @@ struct ClothingItem: Identifiable, Codable {
     
 }
 
-let testClothingItem = ClothingItem (image: "gloves",
-      minTemp: -25,
-      maxTemp: 0,
-      goodForClear: false,
-      goodForWind: true,
-      goodForRain: false,
-      goodForSnow: true,
-      bestForThisActivity: "oe",
-      id: 2)
+let testClothingItem =  ClothingItem (image: "gloves",
+                                      minTemp: -25,
+                                      maxTemp: 0,
+                                      goodForClear: false,
+                                      goodForWind: false,
+                                      goodForRain: false,
+                                      goodForSnow: true,
+                                      bestForThisActivity: "oe",
+                                      id: 2)
+                                
 
 let testClothingItems = [
     
@@ -38,42 +39,32 @@ let testClothingItems = [
           minTemp: -25,
           maxTemp: 0,
           goodForClear: false,
-          goodForWind: true,
+          goodForWind: false,
           goodForRain: false,
           goodForSnow: true,
           bestForThisActivity: "oe",
           id: 2)
     ,
     
-    ClothingItem ( image: "hat",
-          minTemp: 10,
-          maxTemp: 40,
-          goodForClear: true,
+    ClothingItem ( image: "green-jacket",
+          minTemp: 0,
+          maxTemp: 50,
+          goodForClear: false,
           goodForWind: true,
           goodForRain: false,
           goodForSnow: false,
           bestForThisActivity: "canoe",
           id: 3)
     ,
-    ClothingItem (image: "jacket",
+    ClothingItem (image: "hat",
           minTemp: 0,
-          maxTemp: 15,
+          maxTemp: 50,
           goodForClear: true,
-          goodForWind: true,
+          goodForWind: false,
           goodForRain: false,
           goodForSnow: false,
-          bestForThisActivity: "daily",
+          bestForThisActivity: "canoe",
           id: 4)
-    ,
-    ClothingItem (image: "long-sleeve",
-          minTemp: 15,
-          maxTemp: 25,
-          goodForClear: true,
-          goodForWind: true,
-          goodForRain: false,
-          goodForSnow: false,
-          bestForThisActivity: "daily",
-          id: 5)
     ,
     
 ]

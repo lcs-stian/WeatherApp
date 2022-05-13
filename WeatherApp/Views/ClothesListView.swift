@@ -17,7 +17,7 @@ struct ClothesListView: View {
     let isToggleWind: Bool
     let isToggleRain: Bool
     let isToggleSnow: Bool
-    let selectedActivity = ""
+    let selectedActivity: String
     
     // MARK: Computed properties
     
@@ -28,13 +28,15 @@ struct ClothesListView: View {
 
         for item in possibleItems
                 
-        where item.goodForRain == isToggleRain {
+        where temperature > item.minTemp && temperature < item.maxTemp && item.goodForClear == isToggleClear && item.goodForWind == isToggleWind && item.goodForRain == isToggleRain && item.goodForSnow == isToggleSnow && selectedActivity == item.bestForThisActivity
+        
+        {
 
             itemsToShow.append(item)
         }
         return itemsToShow
-        
     }
+    
     
     var body: some View {
         
@@ -42,6 +44,7 @@ struct ClothesListView: View {
             Image(currentItem.image)
                 .resizable()
                 .scaledToFit()
+                .frame(width: 100, height: 100)
 
         }
 
@@ -50,6 +53,6 @@ struct ClothesListView: View {
 
 struct ClothesListView_Previews: PreviewProvider {
     static var previews: some View {
-        ClothesListView(possibleItems: testClothingItems, temperature: 0.0, isToggleClear: false, isToggleWind: false, isToggleRain: false, isToggleSnow: false)
+        ClothesListView(possibleItems: testClothingItems, temperature: 0.0, isToggleClear: false, isToggleWind: false, isToggleRain: false, isToggleSnow: false, selectedActivity: "oe")
     }
 }

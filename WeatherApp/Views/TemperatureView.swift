@@ -113,7 +113,8 @@ struct TemperatureView: View {
                         isToggleClear: isToggleClear,
                         isToggleWind: isToggleWind,
                         isToggleRain: isToggleRain,
-                        isToggleSnow: isToggleSnow
+                        isToggleSnow: isToggleSnow,
+                        selectedActivity: selectedActivity
                 
                     )) {
                         Text("What should I wear?")
